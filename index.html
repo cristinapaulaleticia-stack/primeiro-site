@@ -22,9 +22,20 @@
 </ul>
 
 <div>
-    <h3>sobre mim </h3>
+    <h3>sobre mim: </h3>
     <p>me chamo leticia, tenho 14 anos, sou aluna do dionatan!!!</p>
    <img src ="image.png" alt="" width="300">
-</div>
+   <button>💕<span>0</span></button>
+   </div>
+
+   <script>
+   const botao = document.querySelector("button")
+   botao.addEventListener('click', curtir)
+
+   function curtir(){
+    let curdidas = document.querySelector("span")
+    curdidas.textContent++;
+   }
+   </script>
 </body>
 </html> 

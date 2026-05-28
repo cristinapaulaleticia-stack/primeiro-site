@@ -19,7 +19,21 @@ body{
     #javascript{
       color:rgb(215, 232, 57)
     }
-    /*
-      2° li como azul claro
-      3° li como amarelo
-    /*
+    button{
+      background-color:pink;
+      padding: 10px 20px; /* ESPACO INTERNO */
+      margin: 10px; /*ESPAÇO INTERNO */
+      border-radius: 10px; /* BORDA */
+      max-width: 100px;
+    }
+
+    span{
+      font-size: 20px;
+      color:blueviolet (119, 0, 255);
+  
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+    }
